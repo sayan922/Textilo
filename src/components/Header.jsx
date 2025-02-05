@@ -2,7 +2,7 @@ import { FaPlus } from "react-icons/fa";
 
 export default function Header() {
 return (
-    <header className="flex items-center justify-between px-6 py-3 mt-4 shadow-md rounded-xl bg-gradient-to-r from-purple-100 to-white">
+    <header className="flex items-center justify-between px-6 py-3 mt-4 border shadow-md rounded-t-xl bg-gradient-to-r from-purple-100 to-white">
       {/* Logo */}
     <a href="/" className="text-2xl font-bold ">
         Tex<span className="font-bold text-purple-500">tilo</span>

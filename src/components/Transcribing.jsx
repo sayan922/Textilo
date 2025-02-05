@@ -5,10 +5,10 @@ export default function Transcribing(props) {
 
 
     return (
-        <div className='flex items-center flex-1 flex-col justify-center gap-10 md:gap-14 text-center pb-24 p-4'>
+        <div className='flex flex-col items-center justify-center flex-1 gap-10 p-4 pb-24 text-center md:gap-14'>
             <div className='flex flex-col gap-2 sm:gap-4'>
 
-                <h1 className='font-semibold text-4xl sm:text-5xl md:text-6xl'><span className='text-blue-400 bold'>Transcribing</span></h1>
+                <h1 className='text-4xl font-semibold sm:text-5xl md:text-6xl'><span className='text-purple-400 bold'>Transcribing</span></h1>
                 <p>{!downloading ? 'warming up cylinders' : 'core cylinders engaged'}</p>
             </div>
             <div className='flex flex-col gap-2 sm:gap-3 max-w-[400px] mx-auto w-full'>
