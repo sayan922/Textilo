@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="50" height="50">
+  <defs>
+    <linearGradient id="lavenderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D8BFD8"/>
+      <stop offset="100%" stop-color="#9370DB"/>
+    </linearGradient>
+  </defs>
+  <!-- Document shape -->
+  <rect x="50" y="40" width="140" height="180" rx="15" ry="15" fill="url(#lavenderGradient)" stroke="#6A5ACD" stroke-width="6"/>
+  
+  <!-- Folded corner -->
+  <polygon points="190,40 190,100 130,100" fill="#E6E6FA" stroke="#6A5ACD" stroke-width="4"/>
+
+  <!-- Lines representing text -->
+  <line x1="70" y1="80" x2="160" y2="80" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="70" y1="110" x2="160" y2="110" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="70" y1="140" x2="160" y2="140" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="70" y1="170" x2="140" y2="170" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>
