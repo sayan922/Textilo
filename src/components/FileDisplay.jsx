@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useRef, useEffect } from 'react'
 
 export default function FileDisplay(props) {
