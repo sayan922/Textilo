@@ -52,7 +52,7 @@ Open it in a modern browser (Chrome/Edge/Firefox) — no install required.
 To run the project locally:
 
 ```bash
-git clone https://github.com/your-username/textilo.git
+git clone https://github.com/sayan922/Textilo.git
 cd textilo
 npm install
 npm run dev
